@@ -1,0 +1,154 @@
+@media(max-width: 400px){
+    .nav{
+        font-size: 1em !important;
+        margin: 2% !important;
+        width: 95% !important;
+    }
+
+    .nav-items{
+        width: 80% !important;
+    }
+
+    .bg{
+        height: 25% !important;
+    }
+
+    .stats{
+        top: -40px !important;
+    }
+
+    .box{
+        width: 25% !important;
+        margin: 0 3% !important;
+        font-size: 0.8em !important;
+        border-radius: 13px !important;
+    }
+
+    .numbers{
+        font-size: 1.7em !important;
+    }
+
+    .safe button{
+        width: auto !important;
+        font-size: 1em !important;
+    }
+
+    hr{
+        width: 25% !important;
+    }
+
+    .footer{
+        font-size: 1em !important;
+    }
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.nav{
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 5%;
+    background: transparent;
+    color: white;
+    position: absolute;
+    width: 90%;
+    align-items: center;
+}
+
+.nav-brand{
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.nav-items{
+    width: 75%;
+    text-align: end;
+}
+
+.nav-item{
+    color: white;
+    text-decoration: none;
+    padding: 1% 2%;
+}
+
+.login{
+    background: #FE3373;
+}
+
+.bg{
+    background-image: url('../img/bg.jpeg');
+    height: 50%;
+    background-size: 100%;
+    background-position: center;
+}
+
+.box{
+    width: 15%;
+    margin: 0 5%;
+    background: white;
+    text-align: center;
+    font-size: 1.3em;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 255, .2);
+    border-radius: 20px;
+}
+
+.stats{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: -70px;
+    justify-content: center;
+}
+
+.numbers{
+    font-size: 1.7em;
+    margin: 8% 0;
+}
+
+.heading{
+    margin-bottom: 0;
+}
+
+.new-cases h3{
+    color: red;
+}
+
+.total-infections h3{
+    color: orange;
+}
+
+.total-deaths h3{
+    color: gray;
+}
+
+.safe, .footer{
+    text-align: center;
+}
+
+.safe button{
+    font-weight: 600;
+    height: 10%;
+    width: 17%;
+    background: #FE3373;
+    border: none;
+    color: white;
+    font-size: 1.4em;
+}
+
+hr{
+    width: 8%;
+    margin: 2% auto;
+    border: 1px black solid;
+}
+
+.footer{
+    font-size: 1.3em;
+}
+
+.footer a{
+    text-decoration: none;
+}
